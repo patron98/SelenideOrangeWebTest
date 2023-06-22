@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="314.273" tests="5" skipped="0" failures="0" errors="0">
+<testcase classname="Adding new PIM user" name="adding and checking new PIM user - Example #1.1" time="64.755">
+<system-out><![CDATA[
+Given open browser and login with "admin" and "admin123"....................passed
+When i add a PIM user with name "James" "Bond"..............................passed
+Then the user should exist with name "James" "Bond".........................passed
+]]></system-out>
+</testcase>
+<testcase classname="Adding new PIM user" name="adding and checking new PIM user - Example #1.2" time="63.745">
+<system-out><![CDATA[
+Given open browser and login with "admin" and "admin123"....................passed
+When i add a PIM user with name "Cristiano" "Ronaldo".......................passed
+Then the user should exist with name "Cristiano" "Ronaldo"..................passed
+]]></system-out>
+</testcase>
+<testcase classname="Adding new PIM user" name="adding and checking new PIM user - Example #1.3" time="64.411">
+<system-out><![CDATA[
+Given open browser and login with "admin" and "admin123"....................passed
+When i add a PIM user with name "Marco" "Borsato"...........................passed
+Then the user should exist with name "Marco" "Borsato"......................passed
+]]></system-out>
+</testcase>
+<testcase classname="Adding new PIM user" name="adding and checking new PIM user - Example #1.4" time="60.395">
+<system-out><![CDATA[
+Given open browser and login with "admin" and "admin123"....................passed
+When i add a PIM user with name "Steve" "Jobs"..............................passed
+Then the user should exist with name "Steve" "Jobs".........................passed
+]]></system-out>
+</testcase>
+<testcase classname="Adding new PIM user" name="adding and checking new PIM user - Example #1.5" time="60.728">
+<system-out><![CDATA[
+Given open browser and login with "admin" and "admin123"....................passed
+When i add a PIM user with name "Stevie" "Wonder"...........................passed
+Then the user should exist with name "Stevie" "Wonder"......................passed
+]]></system-out>
+</testcase>
+</testsuite>
